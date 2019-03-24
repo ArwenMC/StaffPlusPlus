@@ -4,11 +4,11 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class StaffPlusPlus extends JavaPlugin {
 
-    public StaffPlusPlus instance;
+    public StaffPlusPlus plugin;
 
     @Override
     public void onEnable() {
-        this.instance = this;
+        this.plugin = this;
     }
 
     @Override
