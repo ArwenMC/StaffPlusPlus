@@ -12,7 +12,7 @@ gradle-app.setting
 .gradletasknamecache
 
 .gradle/
-
+out/
 ## JetBrains
 .idea/
 *.iml
