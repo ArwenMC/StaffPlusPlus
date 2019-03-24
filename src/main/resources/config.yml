@@ -1,0 +1,8 @@
+# Staff++
+## Staff Chat
+staffchat_enable: true
+
+## General Messages
+messages:
+  no_permission: "&cYou do not have permission to use this command."
+  not_player: "&cYou must be a player to use this command"

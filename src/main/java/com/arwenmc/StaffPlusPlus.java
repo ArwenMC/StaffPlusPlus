@@ -18,6 +18,9 @@ public class StaffPlusPlus extends JavaPlugin {
     public Permission moderator = new Permission("spp.moderator");
     public Permission helper = new Permission("spp.helper");
 
+    public String noPermission = configString("messages.no_permission");
+    public String notPlayer = configString("messages.not_player");
+
     @Override
     public void onEnable() {
         this.plugin = this;
@@ -34,4 +37,8 @@ public class StaffPlusPlus extends JavaPlugin {
 
     @Override
     public void onDisable() {}
+
+    private String configString(String path) {
+        return ChatColor.translateAlternateColorCodes('&', getConfig().getString(path));
+    }
 }
